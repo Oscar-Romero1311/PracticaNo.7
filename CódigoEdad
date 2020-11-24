@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int diaDeNacimiento;
+	float operacion;
+	printf("Escribe tu año de nacimiento:");
+	scanf("%i",&diaDeNacimiento);
+	operacion=-diaDeNacimiento+2020;
+	printf("Tu edad es: \n %.0f", operacion);
+	return 0;
+}
